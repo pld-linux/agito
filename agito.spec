@@ -10,6 +10,8 @@ Source0:	https://github.com/fragglet/agito/archive/master/%{name}-%{version}.tar
 URL:		https://github.com/fragglet/agito
 BuildRequires:	sed >= 4.0
 Requires:	git-core
+Requires:	python-dulwich
+Requires:	python-subversion
 Requires:	subversion
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
